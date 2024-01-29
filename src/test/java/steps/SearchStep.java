@@ -20,7 +20,7 @@ public class SearchStep {
     @When("User accept cookies")
     public void user_accept_cookies() {
         searchPage.setCookie();
-
+//123
     }
 
     @When("User enter {string} in to search box")
