@@ -16,9 +16,7 @@ public class CvLibraryStep {
     public void user_on_cv_library_web_page() {
         String url = cvLibraryPage.getJobUrl();
         Assert.assertThat(url, Matchers.endsWith("cv-library.co.uk/"));
-
     }
-
     @When("User accept cookies on web page")
     public void user_accept_cookies_on_web_page() {
         cvLibraryPage.setCookies();
