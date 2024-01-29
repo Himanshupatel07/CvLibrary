@@ -12,7 +12,7 @@ public class DriverFactory {
     public static WebDriver driver; 
 
     //open browser
-    //sMALL CHANGE
+    //sMALL CHANGEE
     public void openUp(){
         WebDriverManager.edgedriver().setup();
         driver=new EdgeDriver();
