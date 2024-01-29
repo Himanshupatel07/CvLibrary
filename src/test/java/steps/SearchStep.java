@@ -9,6 +9,7 @@ import pages.SearchPage;
 
 public class SearchStep {
     SearchPage searchPage = new SearchPage();
+    //Checking search functionality
 
     @Given("User on argos website")
     public void user_on_argos_website() {
