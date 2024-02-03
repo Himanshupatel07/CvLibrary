@@ -8,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 public class SearchPage extends DriverFactory {
 
     //Hello Brother
+    //How you doing?
 
     @FindBy(xpath = "//button[@id='explicit-consent-prompt-accept']")
     private WebElement cookie;
